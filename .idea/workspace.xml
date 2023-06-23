@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84d0ddb5-4f5a-45a3-be28-891d9bf0b002" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitignore.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myApp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +66,11 @@
     "spring.configuration.checksum": "daa60df2f8080505402d0ce37fbfcff0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\laura\OneDrive\Pulpit\Studia\Spring\myApp\src\main\java\com\spring\learning\spring-boot-01" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="myApp" />
@@ -98,7 +103,7 @@
       <updated>1685348029790</updated>
       <workItem from="1685348031622" duration="3959000" />
       <workItem from="1685372509963" duration="411000" />
-      <workItem from="1687443600129" duration="2036000" />
+      <workItem from="1687443600129" duration="3555000" />
     </task>
     <servers />
   </component>
