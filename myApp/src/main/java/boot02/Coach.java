@@ -1,4 +1,4 @@
-package spring.boot01;
+package boot02;
 
 public interface Coach {
     String getDailyWorkout();
