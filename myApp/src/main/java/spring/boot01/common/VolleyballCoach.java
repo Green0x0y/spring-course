@@ -1,4 +1,4 @@
-package boot02;
+package spring.boot01.common;
 
 import org.springframework.stereotype.Component;
 
@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 public class VolleyballCoach implements Coach {
     @Override
     public String getDailyWorkout() {
-        return "Train volleyball for 90 minutes today!";
+        return "Train volleyball for 90 minutes today!!!";
     }
 }
