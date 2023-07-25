@@ -1,4 +1,4 @@
-package spring.boot01;
+package spring.section12;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

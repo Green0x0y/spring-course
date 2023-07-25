@@ -1,4 +1,4 @@
-package spring.boot01.common;
+package spring.section12.common;
 
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;
