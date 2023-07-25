@@ -1,4 +1,4 @@
-package spring.section12;
+package spring.section12.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
