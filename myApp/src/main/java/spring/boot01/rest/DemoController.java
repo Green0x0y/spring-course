@@ -9,12 +9,16 @@ import spring.boot01.common.Coach;
 @RestController
 public class DemoController {
     private Coach myCoach;
+    private Coach anotherCoach;
 
     // when dependencies are required
     @Autowired
-    public DemoController(@Qualifier("volleyballCoach") Coach theCoach){
-        System.out.println(" In consctructor " + getClass().getSimpleName());
+    public DemoController(
+            @Qualifier("volleyballCoach") Coach theCoach,
+            @Qualifier("volleyballCoach") Coach theAnotherCoach){
         myCoach = theCoach;
+        anotherCoach = theAnotherCoach;
+
     }
 
     //when dependencies are optional
@@ -22,6 +26,11 @@ public class DemoController {
 //    public void setCoach(@Qualifier("baseballCoach") Coach theCoach){
 //        myCoach = theCoach;
 //    }
+
+    @GetMapping("/check")
+    public String checkIfSingleton() {
+        return "Result: " +  (myCoach == anotherCoach);
+    }
 
     @GetMapping("/dailyworkout")
     public String getDatilyWorkout(){
