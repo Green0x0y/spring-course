@@ -12,7 +12,8 @@ public class DemoController {
 
     // when dependencies are required
     @Autowired
-    public DemoController(Coach theCoach){
+    public DemoController(@Qualifier("volleyballCoach") Coach theCoach){
+        System.out.println(" In consctructor " + getClass().getSimpleName());
         myCoach = theCoach;
     }
 
