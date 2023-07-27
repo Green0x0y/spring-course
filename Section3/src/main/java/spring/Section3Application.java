@@ -18,8 +18,18 @@ public class Section3Application {
 	public CommandLineRunner commandLineRunner(StudentDAO studentDao){
 		return runner -> {
 			//createStudent(studentDao);
-			createMultipleStudents(studentDao);
+//			createMultipleStudents(studentDao);
+			readStudent(studentDao);
 		};
+	}
+
+	private void readStudent(StudentDAO studentDao) {
+		Student student1 = new Student("Tom", "Cat", "tom@cat.com");
+
+		studentDao.save(student1);
+
+		Student myStudent = studentDao.findById(student1.getId());
+		System.out.println(myStudent);
 	}
 
 	private void createMultipleStudents(StudentDAO studentDao) {
