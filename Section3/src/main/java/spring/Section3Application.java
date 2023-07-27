@@ -1,11 +1,14 @@
 package spring;
 
+import jakarta.persistence.TypedQuery;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import spring.dao.StudentDAO;
 import spring.entity.Student;
+
+import java.util.List;
 
 @SpringBootApplication
 public class Section3Application {
@@ -17,10 +20,18 @@ public class Section3Application {
 	@Bean
 	public CommandLineRunner commandLineRunner(StudentDAO studentDao){
 		return runner -> {
-			//createStudent(studentDao);
-//			createMultipleStudents(studentDao);
-			readStudent(studentDao);
+			// createStudent(studentDao);
+			// createMultipleStudents(studentDao);
+			// readStudent(studentDao);
+			queryForStudents(studentDao);
 		};
+	}
+
+	private void queryForStudents(StudentDAO studentDao) {
+		List<Student> studentsList = studentDao.findAll();
+		for( Student student: studentsList){
+			System.out.println(student);
+		}
 	}
 
 	private void readStudent(StudentDAO studentDao) {

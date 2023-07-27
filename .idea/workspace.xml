@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/Section3/src/main/java/spring/Section3Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section3/src/main/java/spring/Section3Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Section3/src/main/java/spring/dao/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section3/src/main/java/spring/dao/StudentDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Section3/src/main/java/spring/dao/StudentDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section3/src/main/java/spring/dao/StudentDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section3/src/main/java/spring/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section3/src/main/java/spring/entity/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
