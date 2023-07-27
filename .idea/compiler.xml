@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="section3" />
+        <module name="Section3" />
         <module name="Section1and2" />
       </profile>
     </annotationProcessing>
@@ -14,7 +14,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Section1and2" options="-parameters" />
-      <module name="section3" options="-parameters" />
+      <module name="Section3" options="-parameters" />
     </option>
   </component>
 </project>
