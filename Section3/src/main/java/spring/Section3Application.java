@@ -23,8 +23,24 @@ public class Section3Application {
 			// createStudent(studentDao);
 			// createMultipleStudents(studentDao);
 			// readStudent(studentDao);
-			queryForStudents(studentDao);
+			// queryForStudents(studentDao);
+			// queryForStudentsByLastName(studentDao);
+			updateStudent(studentDao);
 		};
+	}
+
+	private void updateStudent(StudentDAO studentDao) {
+		int studentId = 4;
+		Student myStudent = studentDao.findById(studentId);
+		myStudent.setFirstName("Jerry");
+		studentDao.update(myStudent);
+	}
+
+	private void queryForStudentsByLastName(StudentDAO studentDao) {
+		List<Student> students = studentDao.findByLastName("Cat");
+		for(Student student: students){
+			System.out.println(student);
+		}
 	}
 
 	private void queryForStudents(StudentDAO studentDao) {
