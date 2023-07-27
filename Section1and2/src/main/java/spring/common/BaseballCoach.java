@@ -1,4 +1,4 @@
-package spring.section12.common;
+package spring.common;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;

@@ -1,10 +1,10 @@
-package spring.section12.rest;
+package spring.rest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import spring.section12.common.Coach;
+import spring.common.Coach;
 
 @RestController
 public class DemoController {

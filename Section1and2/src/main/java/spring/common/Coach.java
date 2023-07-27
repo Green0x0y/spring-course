@@ -1,4 +1,4 @@
-package spring.section12.common;
+package spring.common;
 
 public interface Coach {
     String getDailyWorkout();

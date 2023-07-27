@@ -1,9 +1,9 @@
-package spring.section12.config;
+package spring.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import spring.section12.common.Coach;
-import spring.section12.common.SwimCoach;
+import spring.common.SwimCoach;
+import spring.common.Coach;
 
 @Configuration
 public class SportConfig {
