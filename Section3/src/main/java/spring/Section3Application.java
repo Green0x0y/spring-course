@@ -21,13 +21,13 @@ public class Section3Application {
 	public CommandLineRunner commandLineRunner(StudentDAO studentDao){
 		return runner -> {
 			// createStudent(studentDao);
-			// createMultipleStudents(studentDao);
+			createMultipleStudents(studentDao);
 			// readStudent(studentDao);
 			// queryForStudents(studentDao);
 			// queryForStudentsByLastName(studentDao);
 			// updateStudent(studentDao);
 			// removeStudent(studentDao);
-			removeAllStudents(studentDao);
+			// removeAllStudents(studentDao);
 		};
 	}
 

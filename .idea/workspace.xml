@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84d0ddb5-4f5a-45a3-be28-891d9bf0b002" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Section3/src/main/java/spring/Section3Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section3/src/main/java/spring/Section3Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section3/src/main/java/spring/dao/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section3/src/main/java/spring/dao/StudentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section3/src/main/java/spring/dao/StudentDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section3/src/main/java/spring/dao/StudentDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section3/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Section3/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
