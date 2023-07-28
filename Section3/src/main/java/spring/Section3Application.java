@@ -25,8 +25,20 @@ public class Section3Application {
 			// readStudent(studentDao);
 			// queryForStudents(studentDao);
 			// queryForStudentsByLastName(studentDao);
-			updateStudent(studentDao);
+			// updateStudent(studentDao);
+			// removeStudent(studentDao);
+			removeAllStudents(studentDao);
 		};
+	}
+
+	private void removeAllStudents(StudentDAO studentDao) {
+		int num = studentDao.deleteAll();
+		System.out.println("Deleted: " +  num);
+	}
+
+	private void removeStudent(StudentDAO studentDao) {
+		int studentId = 6;
+		studentDao.delete(studentId);
 	}
 
 	private void updateStudent(StudentDAO studentDao) {

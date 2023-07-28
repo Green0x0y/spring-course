@@ -10,7 +10,7 @@ import spring.entity.Student;
 import java.util.List;
 
 @Repository
-public class StudentDAOImpl implements StudentDAO{
+    public class StudentDAOImpl implements StudentDAO{
     private EntityManager entityManager;
 
     @Autowired
@@ -47,6 +47,20 @@ public class StudentDAOImpl implements StudentDAO{
     @Transactional
     public void update(Student theStudent) {
         entityManager.merge(theStudent);
+    }
+
+    @Override
+    @Transactional
+    public void delete(Integer id) {
+        Student theStudent = entityManager.find(Student.class, id);
+        entityManager.remove(theStudent);
+    }
+
+    @Override
+    @Transactional
+    public int deleteAll() {
+        int numOfDeleted = entityManager.createQuery("DELETE FROM Student").executeUpdate();
+        return numOfDeleted;
     }
 
 
