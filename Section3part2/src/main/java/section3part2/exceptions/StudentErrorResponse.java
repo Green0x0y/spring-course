@@ -1,14 +1,14 @@
 package section3part2.exceptions;
 
-public class ErrorResponse {
+public class StudentErrorResponse {
     private int status;
     private String message;
     private long timestamp;
 
-    public ErrorResponse() {
+    public StudentErrorResponse() {
     }
 
-    public ErrorResponse(int status, String message, long timestamp) {
+    public StudentErrorResponse(int status, String message, long timestamp) {
         this.status = status;
         this.message = message;
         this.timestamp = timestamp;
