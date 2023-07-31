@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84d0ddb5-4f5a-45a3-be28-891d9bf0b002" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Section3part2/src/main/java/section3part2/rest/StudentRestExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Section3part2/src/main/java/section3part2/rest/StudentRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section3part2/src/main/java/section3part2/rest/StudentRestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
