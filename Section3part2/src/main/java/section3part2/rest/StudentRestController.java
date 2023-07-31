@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import section3part2.entity.Student;
+import section3part2.exceptions.StudentNotFoundException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,7 +36,9 @@ public class StudentRestController {
 
     @GetMapping("/students/{studentId}")
     public Student getStudent(@PathVariable int studentId){
-
+        if((studentId >=theStudents.size()) || (studentId < 0 )){
+            throw new StudentNotFoundException("Student number invalid: " + studentId);
+        }
         return theStudents.get(studentId);
     }
 }

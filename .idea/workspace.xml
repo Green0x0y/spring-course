@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84d0ddb5-4f5a-45a3-be28-891d9bf0b002" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Section3part2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part2/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part2/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part2/src/main/java/section3part2/Section3part2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part2/src/main/java/section3part2/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part2/src/main/java/section3part2/rest/DemoRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part2/src/main/java/section3part2/rest/StudentRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part2/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part2/src/test/java/section3part2/Section3part2ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section3part2/src/main/java/section3part2/exceptions/ErrorResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
