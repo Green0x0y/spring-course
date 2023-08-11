@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Section3" />
+        <module name="demo" />
         <module name="section3part2" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Section1and2" options="-parameters" />
       <module name="Section3" options="-parameters" />
+      <module name="demo" options="-parameters" />
       <module name="section3part2" options="-parameters" />
     </option>
   </component>
