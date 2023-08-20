@@ -1,8 +1,8 @@
-package section3_.rest;
+package section34.rest;
 
 import org.springframework.web.bind.annotation.*;
-import section3_.entity.Employee;
-import section3_.service.EmployeeService;
+import section34.entity.Employee;
+import section34.service.EmployeeService;
 
 import java.util.List;
 

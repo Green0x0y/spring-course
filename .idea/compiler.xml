@@ -15,12 +15,14 @@
     <bytecodeTargetLevel>
       <module name="demo" target="17" />
       <module name="Section1and2" target="17" />
+      <module name="Section3part4" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Section1and2" options="-parameters" />
       <module name="Section3" options="-parameters" />
+      <module name="Section3part4" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1)" options="-parameters" />
       <module name="demo (2)" options="-parameters" />

@@ -5,25 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84d0ddb5-4f5a-45a3-be28-891d9bf0b002" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Section3part3/src/main/java/section3_/JPARepository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part4/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part4/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part4/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part4/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part4/src/main/java/section3_/JPARepository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part4/src/main/java/section3_/Section33Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part4/src/main/java/section3_/dao/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part4/src/main/java/section3_/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part4/src/main/java/section3_/rest/EmployeeRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part4/src/main/java/section3_/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part4/src/main/java/section3_/service/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part4/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section3part4/src/test/java/section3_/Section33ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section3part3/src/main/java/section3_/rest/EmployeeRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section3part3/src/main/java/section3_/rest/EmployeeRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section3part4/src/main/java/section3_/Section33Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section3part4/src/main/java/section3_/Section34Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section3part4/src/main/java/section3_/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section3part4/src/main/java/section3_/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section3part4/src/main/java/section3_/service/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section3part4/src/main/java/section3_/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section3part4/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Section3part4/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,23 +78,10 @@
       <recent name="C:\Users\laura\OneDrive\Pulpit\Studia\Spring\myApp\src\main\java\com\spring\learning\spring-boot-01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Section33Application">
-    <configuration name="MyAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring.boot01.MyAppApplication" />
-      <module name="Section1and2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spring.boot01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Section33Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section3_.Section33Application" />
-      <module name="demo" />
+  <component name="RunManager" selected="Application.section34.Section34Application">
+    <configuration name="Section34Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section3_.Section34Application" />
+      <module name="demo (2)" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="section3_.*" />
@@ -137,6 +111,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="section3part2.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="section34.Section34Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section34.Section34Application" />
+      <module name="demo (2)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section34.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,13 +164,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Section34Application" />
+      <item itemvalue="Application.section34.Section34Application" />
+      <item itemvalue="Application.Section3Application" />
+      <item itemvalue="Application.Section3part2Application" />
+      <item itemvalue="Application.spring.section12.MyAppApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Section33Application" />
+        <item itemvalue="Application.section34.Section34Application" />
+        <item itemvalue="Application.Section34Application" />
         <item itemvalue="Application.Section3part2Application" />
         <item itemvalue="Application.Section3Application" />
         <item itemvalue="Application.spring.section12.MyAppApplication" />
-        <item itemvalue="Application.MyAppApplication" />
       </list>
     </recent_temporary>
   </component>

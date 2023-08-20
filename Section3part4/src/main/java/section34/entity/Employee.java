@@ -1,4 +1,4 @@
-package section3_.entity;
+package section34.entity;
 
 import jakarta.persistence.*;
 

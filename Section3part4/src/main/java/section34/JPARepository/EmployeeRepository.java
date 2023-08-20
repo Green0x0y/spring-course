@@ -1,7 +1,7 @@
-package section3_.JPARepository;
+package section34.JPARepository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import section3_.entity.Employee;
+import section34.entity.Employee;
 
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
 }
