@@ -10,6 +10,7 @@
         <module name="Section3" />
         <module name="demo (2)" />
         <module name="demo (1)" />
+        <module name="demo (3)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +27,7 @@
       <module name="demo" options="-parameters" />
       <module name="demo (1)" options="-parameters" />
       <module name="demo (2)" options="-parameters" />
+      <module name="demo (3)" options="-parameters" />
       <module name="section3part2" options="-parameters" />
     </option>
   </component>

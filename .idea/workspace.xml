@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84d0ddb5-4f5a-45a3-be28-891d9bf0b002" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section3part5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section3part5/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section3part5/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section3part5/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section3part5/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section3part5/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section3part5/src/main/java/section34/JPARepository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section3part5/src/main/java/section34/Section34Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section3part5/src/main/java/section34/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section3part5/src/main/java/section34/rest/EmployeeRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section3part5/src/main/java/section34/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section3part5/src/main/java/section34/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section3part5/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section3part5/src/test/java/section34/Section33ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section3part4/src/main/java/section3_/Section33Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section3part4/src/main/java/section3_/Section34Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section3part4/src/main/java/section3_/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section3part4/src/main/java/section3_/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section3part4/src/main/java/section3_/service/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section3part4/src/main/java/section3_/service/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section3part4/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Section3part4/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section3part4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Section3part4/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +72,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/laura/Desktop/Studies/Learning/Spring/Section3part4",
+    "last_opened_file_path": "/home/laura/Desktop/Studies/Learning/Spring",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
