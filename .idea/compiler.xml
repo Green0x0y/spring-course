@@ -6,15 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cruddemo" />
         <module name="section3part2" />
         <module name="Section3" />
-        <module name="demo (2)" />
-        <module name="demo (1)" />
-        <module name="demo (3)" />
+        <module name="demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="demo" target="17" />
+      <module name="demo (1)" target="17" />
+      <module name="demo (2)" target="17" />
+      <module name="demo (3)" target="17" />
       <module name="Section1and2" target="17" />
       <module name="Section3part4" target="17" />
     </bytecodeTargetLevel>
@@ -24,6 +25,7 @@
       <module name="Section1and2" options="-parameters" />
       <module name="Section3" options="-parameters" />
       <module name="Section3part4" options="-parameters" />
+      <module name="cruddemo" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1)" options="-parameters" />
       <module name="demo (2)" options="-parameters" />
